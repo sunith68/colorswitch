@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Concert One', cursive;
+	background: #2b2b2b;
+	background: #222;
+}
+body{	
+	font-size: 22px;
+	color: #e0e0e0;
+
+}
+canvas{
+	background: #222;
+	display: block;
+	margin: auto;
+}
+#top{
+	padding: 10px 20px;
+	height: 5vh;
+}
+#hscore{
+	float: right;
+}
+#hsText{
+	float: right;
+	padding-right: 5px;
+	padding-left: 15px;
+}
+#scoreText{
+	padding-right:5px; 
+}
+#home{
+	padding-left: 15px;
+	cursor: pointer;
+}
+#home:hover{
+	font-size: 23px;
+	color:#1ab2ff;
+}
+#pausebtn{
+	float: right;
+	cursor: pointer;
+}
+#pausebtn:hover{
+	font-size: 23px;
+	color:#1ab2ff;
+}
+#menu{
+	margin: auto;
+	margin-top: 15vh;
+	text-align: center;
+}
+#title{
+	font-family: 'Modak', cursive;
+	padding: 0px 20px;
+	line-height: 1.6em;
+	height:auto;
+	font-size:120px;	
+	background: -webkit-linear-gradient(#3333ff,#ff3377,#ffcc99);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	margin-bottom: 70px;
+}
+#startbtn{
+	font-size: 60px;
+	font-family: 'Modak', cursive;
+	cursor: pointer;
+	background: -webkit-linear-gradient(#3333ff,#ff3377,#ffcc99);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+#startbtn:hover{
+	font-size:70px;
+}
+#end{
+	margin-top: 50px;
+	text-align: center;
+	font-size:40px;
+}
+#endText{
+	font-size: 60px;
+	margin-bottom: 50px;
+}
+#restart{
+	cursor: pointer;
+}
+#restart:hover{
+	font-size: 45px;
+	color: #1ab2ff;
+}
+#canvas1{
+	float: left;
+	box-sizing: border-box;
+}
+#canvas2{
+	float: right;
+	box-sizing: border-box;
+}
+#multibtn{
+	font-size: 60px;
+	font-family: 'Modak', cursive;
+	cursor: pointer;
+	background: -webkit-linear-gradient(#3333ff,#ff3377,#ffcc99);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+#multibtn:hover{
+	font-size:70px;
+}
+#multiplayer{
+	padding: 10px 0;
+	height: 5vh;
+	position: relative;
+}
+#stxt2{
+	float: right;
+	padding-right: 5px;
+	
+}
+#score2{
+	float: right;
+	padding-right: 20px;
+}
+#stxt1{
+	padding-right:5px; 
+	padding-left: 20px;
+}
+#homem{
+	position: relative;
+	left: 40vw;
+	cursor: pointer;
+}
+#homem:hover{
+	font-size: 23px;
+	color:#1ab2ff;
+	
+}
+#gameoverm{
+	margin-top: 50px;
+	text-align: center;
+	font-size:40px;
+}
+#wintxt{
+	font-size: 60px;
+	margin-bottom: 50px;
+}
+#restartm{
+	cursor: pointer;
+}
+#restartm:hover{
+	font-size: 45px;
+	color: #1ab2ff;
+}
