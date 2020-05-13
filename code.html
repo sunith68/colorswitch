@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bubbles</title>
+	<link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id='top'>
+		<span id='scoreText'>Score</span>
+		<span id='score'>0</span>
+		<span id='timeText'>Time</span>
+		<span id='clock'> 0 : 00 : 00 </span>
+		<span id='hscore'>0</span>
+		<span id='hsText'>High Score</span>
+		<span id='pausebtn' class="button">Pause</span>
+		<span id='restartbtn' class="button">Restart</span>
+		<span id='liquidLuck' class="button">Liquid Luck ||</span>
+	</div>
+	<div id='menu'>
+		<div id='bubblestxt'>Bubbles</div>
+		<div id="startbtn" class="button">Start</div><br>
+		<div id='rulestxt' class="button">Instructions</div>		
+	</div>
+	<div id="menubtn" class="button">Back to Menu</div>
+	<fieldset id='rules'>
+			<legend> Instructions </legend>
+			<div>
+				<ul>
+					<li>Prevent the screen from filling up with bubbles by popping the bubbles(can be done by clicking the bubbles)</li>
+					<li>Each bubble will be worth a certain amount of points depending on the size of the bubble.The points for each bubble increases with decreasing size. </li>
+					<li>After crossing a certain score rock bubbles(brown in color) will start to generate and these bubbles needs to be clicked 5 times to be popped</li>  
+					<li>Liquid Luck is a special ability that can be used to reduce the speed of the bubbles. Liquid Luck can only be used twice so use it wisely.</li>  
+					<li>Gauntlet Bubbles are a special bubbles that destroys half of the remaining bubbles in the screen when popped</li>
+				</ul>
+			</div>
+	</fieldset>
+	<span style="font-family: 'Creepster', cursive;"></span>
+
+	<canvas></canvas>
+	<script src='app.js'></script>
+</body>
+</html>
