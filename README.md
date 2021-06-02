@@ -1,2 +1,2 @@
-# colorswitch-deltawebdev-
-Delta Web Dev 
+# Color Switch
+A Color Switch game developed using canvas.
